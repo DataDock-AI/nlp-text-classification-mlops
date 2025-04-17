@@ -18,7 +18,7 @@ def deploy_model():
     ml_client = MLClient(credential, subscription_id, resource_group, workspace_name)
 
     # Define endpoint name (you can also persist this if needed)
-    endpoint_name = "Nlp-Text-Endpoint"
+    endpoint_name = "nlp-text-endpoint"
     print(f"Check: endpoint {endpoint_name} exists")
 
     # Create endpoint if it doesn't exist
